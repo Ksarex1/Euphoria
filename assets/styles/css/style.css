@@ -79,8 +79,6 @@ img {
           align-items: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-animation: fadeIn 1s ease-out forwards;
-          animation: fadeIn 1s ease-out forwards;
 }
 @media (any-hover: hover) {
   .btn:hover {
@@ -486,7 +484,7 @@ a {
 }
 
 .welcome-slider {
-  background-image: url(/assets/img/shop-hero-1-product-slide-1.jpg); /* Укажи путь к фону */
+  background-image: url("/assets/img/shop-hero-1-product-slide-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 850px;
@@ -662,7 +660,7 @@ a {
   color: var(--white-color);
   border-radius: 12px;
   width: 600px;
-  background-image: url(/assets/img/discounts_bg1.jpg);
+  background-image: url("/assets/img/discounts_bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-in-out;
@@ -764,7 +762,7 @@ a {
 }
 
 .discount-card:nth-child(2) {
-  background-image: url(/assets/img/shop-hero-1-product-slide-2.jpg);
+  background-image: url("/assets/img/shop-hero-1-product-slide-2.jpg");
 }
 
 .arrival {
@@ -900,7 +898,7 @@ a {
   }
 }
 .saving__card-first-row .saving__card:nth-child(2) {
-  background-image: url(/assets/img/saving_bg-card2.png);
+  background-image: url("/assets/img/saving_bg-card2.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -923,7 +921,7 @@ a {
   }
 }
 .saving__card-first-row .saving__card:nth-child(3) {
-  background-image: url(/assets/img/saving_bg-card3.png);
+  background-image: url("/assets/img/saving_bg-card3.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -992,7 +990,7 @@ a {
   font-size: 20px;
 }
 .saving__card-second-row .saving__card:nth-child(1) {
-  background-image: url(/assets/img/saving_bg-card4.png);
+  background-image: url("/assets/img/saving_bg-card4.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1038,7 +1036,7 @@ a {
   }
 }
 .saving__card-second-row .saving__card:nth-child(2) {
-  background-image: url(/assets/img/saving_bg-card5.png);
+  background-image: url("/assets/img/saving_bg-card5.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1085,7 +1083,7 @@ a {
 }
 .saving__card {
   border-radius: 12px;
-  background-image: url(/assets/img/saving_bg-card1.png);
+  background-image: url("/assets/img/saving_bg-card1.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1194,7 +1192,7 @@ a {
   }
 }
 .fashion__text {
-  background-image: url(/assets/img/fashion_bg1.png);
+  background-image: url("/assets/img/fashion_bg1.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 50%;

@@ -68,7 +68,6 @@ img {
     justify-content: center;
     align-items: center;
     transition: all 0.3s;
-    animation: fadeIn 1s ease-out forwards;
     @media (any-hover: hover) {
         &:hover {
             background-color: #dfdfdf;
@@ -376,7 +375,7 @@ a {
 // Section-welcome
 
 .welcome-slider {
-    background-image: url(/assets/img/shop-hero-1-product-slide-1.jpg); /* Укажи путь к фону */
+    background-image: url('/assets/img/shop-hero-1-product-slide-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 850px;
@@ -520,7 +519,7 @@ a {
     color: var(--white-color);
     border-radius: 12px;
     width: 600px;
-    background-image: url(/assets/img/discounts_bg1.jpg);
+    background-image: url("/assets/img/discounts_bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     transition: all 0.2s ease-in-out;
@@ -617,7 +616,7 @@ a {
     }
 }
 .discount-card:nth-child(2) {
-    background-image: url(/assets/img/shop-hero-1-product-slide-2.jpg);
+    background-image: url("/assets/img/shop-hero-1-product-slide-2.jpg");
 }
 
 // Section-arrival
@@ -745,7 +744,7 @@ a {
             }
         }
         .saving__card:nth-child(2) {
-            background-image: url(/assets/img/saving_bg-card2.png);
+            background-image: url("/assets/img/saving_bg-card2.png");
             display: flex;
             justify-content: end;
             text-align: end;
@@ -761,7 +760,7 @@ a {
             }
         }
         .saving__card:nth-child(3) {
-            background-image: url(/assets/img/saving_bg-card3.png);
+            background-image: url("/assets/img/saving_bg-card3.png");
             display: flex;
             justify-content: end;
             text-align: start;
@@ -817,7 +816,7 @@ a {
             font-size: 20px;
         }
         .saving__card:nth-child(1) {
-            background-image: url(/assets/img/saving_bg-card4.png);
+            background-image: url("/assets/img/saving_bg-card4.png");
             display: flex;
             justify-content: end;
             text-align: start;
@@ -848,7 +847,7 @@ a {
             }
         }
         .saving__card:nth-child(2) {
-            background-image: url(/assets/img/saving_bg-card5.png);
+            background-image: url("/assets/img/saving_bg-card5.png");
             display: flex;
             justify-content: end;
             text-align: start;
@@ -882,7 +881,7 @@ a {
 
     &__card {
         border-radius: 12px;
-        background-image: url(/assets/img/saving_bg-card1.png);
+        background-image: url("/assets/img/saving_bg-card1.png");
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -989,7 +988,7 @@ a {
     }
 
     &__text {
-        background-image: url(/assets/img/fashion_bg1.png);
+        background-image: url("/assets/img/fashion_bg1.png");
         background-size: cover;
         background-repeat: no-repeat;
         width: 50%;
